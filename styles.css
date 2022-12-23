@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Plus Jakarta Sans';
+    overflow-x: hidden;
+}
+main{
+    display: flex;
+    align-items: center;
+    padding: 0 16px 0 16px;
+    flex-direction: column;
+}
+
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width:100%;
+}
+.header-left-box{
+    height: 35px;
+    width: 89px;
+    margin-top: 22px;
+    margin-bottom: 45px;
+
+}
+.header-left{
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    color:#13183F;
+    
+}
+
+.header-right-button{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 140px;
+    border-radius: 28px;
+    border: none;
+    background-color: #13183F;
+    margin-top: 16px;
+    margin-bottom: 38px;
+    padding-top: 9px;
+    padding-bottom: 11px;
+}
+.course-image-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.course-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.title-box{
+    height:101px;
+    width:343px;
+}
+.text-box{
+    width: 343px;
+}
+.title{
+    font-family: Plus Jakarta Sans;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    text-align: left;
+}
+.text{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-top: 26px;
+    color: rgba(131, 134, 154, 1);
+
+}
+
+
+.course-button{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    color:#FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 167px;
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);    
+    margin-top: 24px;
+    border: none;
+}
+
+.tablet-image{
+    display: none;
+}
+.desktop-image{
+    display: none;
+}
+
+.other-box{
+    height: 120px;
+    width: 343px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    margin-bottom: 40px;
+    
+}
+.other-box-child{
+    height: 64px;
+    width: 286px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.other{
+    font-family: Plus Jakarta Sans;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+.box{
+    height: 259px;
+    width: 343px;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding-left: 29px;
+    padding-right: 29px;
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+}
+.shape-box{
+    
+    margin-bottom: 24px;
+}
+.topic-box{
+   margin-bottom: 16px;
+}
+.topic-style{
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 25px;
+    color:rgba(19, 24, 63, 1);
+
+}
+.description-box{
+    margin-bottom: 24px;
+    height: 78px;
+    width: 286px;
+
+}
+.description-style{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgba(131, 134, 154, 1);
+
+
+}
+.get-started-button{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    color: rgba(247, 71, 128, 1);   
+    height: 28px;
+    width: 104px;
+    border: none;
+    background-color: #FFFFFF;
+    /* margin-top: 24px; */
+}
+.footer-box{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 16px 0 16px;
+    margin-top: 80px;
+    background-color: rgba(19, 24, 63, 1);
+}
+.footer-left-box{
+    height: 35px;
+    width: 89px;
+    margin-top: 43px;
+    margin-bottom: 42px;
+
+}
+.footer-left-style{
+    font-family: Plus Jakarta Sans;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 35px;
+    color:#FFFFFF;
+}
+
+.footer-right-button{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 140px;
+    border-radius: 28px;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    margin-bottom: 36px;
+    margin-top: 36px;
+    border:none;
+    padding-top: 9px;
+    padding-bottom: 11px;
+}
+
+@media(min-width:768px){
+    main{
+        padding: 0 39px 0 39px;
+    }
+    .course-image-box{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-top: -100px;
+    }
+    
+    .mobile-image{
+        display:none;
+    }
+    .desktop-image{
+        display: none;
+    }
+    .tablet-image{
+        display: block;
+        margin-right: -400px;
+    }
+    .three{
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+    .other-box{
+        height: 259px;
+        width: 339px;
+        border-radius: 10px;
+
+    }
+}
+@media(min-width:1440px){
+    main{
+        padding: 0 165px 0 165px;
+    }
+    .tablet-image{
+        display: none;
+    }
+    .desktop-image{
+        display: block;
+        margin-right: -600px;
+              
+    }
+    .course-box{
+        margin-right: 160px;
+    }
+
+    .three{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-top: 14px;
+        padding-bottom: 140px;
+        row-gap: 20px;
+        
+    }
+    
+    .header-left-box{
+        height: 45px;
+        width: 114px;
+    }
+    .header-left{     
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 45px;
+    }
+    .header-right-button{
+        width:167px;
+        padding-top: 14px;
+        padding-top: 14px;     
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px; 
+        position: relative;     
+    }
+    .box{
+        
+        width: 350px;
+    }
+    .title{
+        font-size: 56px;
+        font-weight: 800;
+        line-height: 71px;
+
+    }
+    .title-box{
+        height:143px;
+        width:457px;
+    }
+    .text-box{
+        width: 445px;
+        height:84px;
+    }
+    .text{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+    
+    .course-button{
+        padding-top: 19px;
+        padding-bottom: 16px;
+        width: 167px; 
+        margin-top: 40px;     
+         
+    }
+   
+    .other{
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 40px;
+    }
+    .other-box{
+        height: 322px;
+        width: 350px;     
+    }
+    .other-box-child{
+        height: 120px;
+        width: 286px;
+    }
+    .footer-left-box{
+        height: 45px;
+        width: 114px;
+        margin-left: 165px;
+    }
+   
+    .description-box{
+        height: 112px;
+        width: 286px;
+    }
+    .topic-box{
+        
+        width: 121px;
+        height: 30px;
+     }
+     .topic-style{
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 30px;
+    }
+    .description-style{
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 28px; 
+    }
+    .footer-left-style{
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 45px;
+    }
+    .footer-right-button{
+        width:167;
+        padding-top: 14px;
+        padding-bottom: 14px;      
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+        margin-right: 165px;
+        }
+        .course-button:hover{           
+            cursor: pointer;
+            background:linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+                   
+         }
+         .footer-right-button:hover{
+            cursor: pointer;
+            background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+
+         }
+         .get-started-button:hover{
+            cursor: pointer;
+            color: rgba(255, 167, 195, 1);
+            
+         }
+         .header-right-button:hover{
+            cursor: pointer;
+            background-color: #666CA3;
+         }
+        }
